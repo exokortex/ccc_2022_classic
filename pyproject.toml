@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ccc-2022-classic"
+version = "0.1.0"
+description = ""
+authors = ["prod1101 <prod1101@tutanota.com>"]
+readme = "README.md"
+packages = [{include = "ccc_2022_classic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
